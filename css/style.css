@@ -307,6 +307,9 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     font-weight: 400;
     color: white;
 }
+.creative-work-photo{
+    margin-top:4% ;
+}
 .creative-photo-header-section h2{
     color: white;
     letter-spacing: 1px;
@@ -659,6 +662,9 @@ button {
     font-size: 12px;
     font-weight: 300;
 }
+.mobile-design-section{
+    background-color: #f8f9fa;
+}
 .documantion-code{
     padding: 10px;
 }
@@ -749,4 +755,157 @@ button {
 }
 .site-content{
     padding-top: 16%;
+}
+/* ----started maps area----- */
+.maps-address{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.address-with-info{
+    flex: 1;
+}
+.address-with-info .total-details-area{
+    height: 92.4%;
+    text-align: center;
+    background: linear-gradient(90deg, #233fcaa6 0%, #2a0dccba 43%, #011fb5d4 85%);
+}
+.total-details-area .lorem-text{
+    padding-top: 14%;
+    font-size: 13px;
+    color: white;
+    font-weight: 100;
+    margin-top: 2.3%;
+}
+.total-details-area h2{
+    color: white;
+    text-transform: capitalize;
+    font-size: 31px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.total-details-area h4{
+    font-size: 13px;
+    margin-top: -3%;
+    font-weight: 100;
+    color: white;
+}
+.details-address{
+    margin: 5% 0;
+}
+.total-details-area .details-address h4{
+    font-size: 12px;
+    padding: 5px 0px;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.total-details-area .address-mail-site h4{
+    font-size: 12px;
+    padding: 5px 0px;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.total-details-area ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 38%;
+    
+}
+.total-details-area ul {
+   
+}
+.total-details-area ul li i{
+    padding: 9px;
+    color: white;
+}
+/* ---closed maps-container----- */
+.form-header-section {
+    padding-top: 2%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.form-container-section{
+    margin-top: 4%;
+}
+
+.form-header-section h1 {
+    font-size: 31px;
+    font-weight: 700;
+    color: #2b2b2b;
+    text-transform: capitalize;
+}
+.form-header-section p {
+    font-size: 13px;
+    font-weight: 200;
+    color:#75d4e3;
+    margin-top: -15px;
+    text-transform: capitalize;
+}
+.form-box-section{
+    text-align: center;
+}
+input {
+    padding: 10px;
+    font-size: 14px;
+    margin: 5px;
+    width: 31%;
+}
+textarea {
+    padding: 13px;
+    font-size: 14px;
+    margin: 12px;
+    width: 65%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.form-btn{
+    background: linear-gradient(90deg, #3655ed 0%, #4a31d8 43%, #690ec2 85%);
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 17px;
+    font-size: 15px;
+
+}
+.form-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.form-action input[type="text"] ,input[type="email"], input[type="tel"]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+/* -----form container section----- */
+.footer-head{
+    background-color: #f8f9fa;
+}
+.footer-head {
+    padding: 3% 0;
+    margin-top: 6%;
+    text-align: center;
+}
+.footer-head ul{
+   display: flex;
+   list-style: none;
+   padding-left: 39%;
+}
+.footer-head ul li i{
+    padding: 1rem;
+}
+.copy-write{
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: capitalize;
 }
