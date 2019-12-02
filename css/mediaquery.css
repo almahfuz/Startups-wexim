@@ -1,0 +1,254 @@
+@media (max-width: 1024px) {
+    .form-box-section{
+        width: 90% !important ;
+      
+    }
+    .center-text p {
+        font-size: 38px;
+        font-weight: 200;
+        padding: 18%;
+    }
+    .startup-right {
+        flex: 1;
+        padding: 0px 3% 0 5%;
+    }
+    .mobile-theme img {
+        width: 320px;
+        height: 320px;
+        
+    }
+  }
+  /* ---for Laptop viwe---- */
+
+
+  @media only screen and (max-width: 375px){
+    .center-text p {
+        font-size: 15px !important;
+        font-weight: 700;
+        margin-bottom:0 ;
+    }
+    .btn-click {
+        margin-top: 18% !important;
+    }
+    .won-employee .won {
+        padding: 12% 0% 0 1%;
+    }
+    
+  }
+  /* ----for small mobile view---- */
+
+  @media only screen and (max-width: 425px){
+  .center-text p {
+        font-size: 15px !important;
+        font-weight: 700;
+        margin-bottom: 10%;
+    }
+    .btn-click {
+        margin-top: 15% !important;
+    }
+  }
+  /* ----for small mobile view---- */
+
+@media only screen and (max-width: 480px) {
+    .startup-left img{
+        width: 300px;
+    }
+    .startup-right{
+        flex-basis: auto;
+    }
+    .web-service{
+        flex-basis: auto;
+    }
+    
+    .center-text-bottom{
+        margin-top: 17%;
+    }
+    .btn-click{
+        margin-top: 26%;
+    }
+    .center-text p {
+        font-size: 23px;
+        margin-bottom: 74%;
+        text-align: center;
+    }
+    /* .header-mid h2 {
+        margin: 25px 14px;
+    } */
+   
+}
+/* ---for mobile view---- */
+
+@media only screen and (max-width: 600px) {
+    label {
+        display: block;
+        cursor: pointer;
+        
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .header-mid h2 {
+        margin: 25px 56px;
+    }
+    .center-text-bottom p {
+       
+        margin-bottom: 18%;
+    }
+    .try-section{
+        padding-top:2% ;
+    }
+    .startup-right{
+        padding: 0;
+    }
+    .startup-love-section{
+        padding-top:2% ;
+    }
+    .support-and-code-section{
+        padding-top:2% ;
+    }
+    
+}
+/* --- for tablet view----- */
+
+@media only  screen and (max-width: 599px) { 
+        .center-text p{
+            font-size:36px ;
+        }
+        .header-mid{
+            padding-left: 10%;
+        }
+        .center-text-bottom p {
+            font-size: 14px;
+            margin-bottom: 23%;
+        }
+        .service-bottom-services .web-service{
+            flex-basis: 56%;
+             text-align: center;
+        }
+        .won-employee{
+            text-align: center;
+            flex-basis: 38%;
+        }
+        .center-text p {
+            font-size: 23px;
+            margin-bottom: -4%;
+        }
+        
+        
+}
+
+/* ---for mobile view---- */
+  
+@media only screen and (max-width: 700px){
+     .center-text{
+    text-align: center;
+    }
+    .center-text p{
+        font-size: 23px;
+        margin-bottom: 27%;
+    }
+    
+    .won-employee{
+        text-align: center;
+        flex-basis: 38%;
+    }
+    .watch-section{
+    flex-direction: column;
+    }
+    .website-dream-section{
+        flex-direction: column;
+    }
+    .maps-address{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+ }
+ /* ---for tablet view------ */
+
+ @media only screen and (max-width: 768px){
+    .center-text p {
+        font-size: 23px;
+    }
+    .center-text-bottom{
+        margin: 0;
+    }
+    .form-box-section{
+        width: 60% !important;
+    }
+   
+    .startup-left{
+        flex: 0;
+    }
+    .startup-right {
+     
+        padding: 0 15% 0 14%;
+    }
+    .won-employee .won {
+        padding: 13%;
+    }
+        
+ }
+ /* ---for tablet view------ */
+
+@media only  screen and(max-width: 750px) { 
+    .startup-left{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .center-text p {
+        font-size: 24px;
+        font-weight: 200;
+        padding: 22%;
+    }
+    
+    
+     
+}
+  /* -----for-tablet-landscape-up------- */
+
+ @media only screen and(min-width: 1024px) {
+
+    .form-box-section .form-action{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+}
+  /* ---for Laptop viwe---- */
+
+ 
+  @media only  screen and(min-width: 1260px) {
+    .center-text p {
+        font-size: 35px;
+        font-weight: 200;
+        padding: 15%;
+    }
+   
+  
+   
+  }
+   /* ------for-big-desktop-up --- */
+
+ @media (min-width: 2560px){
+
+    
+    .total-details-area .lorem-text {
+        padding-top: 4% !important;
+    }
+    
+ }
+   /* ----4k display--- */

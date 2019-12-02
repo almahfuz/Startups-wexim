@@ -1,4 +1,4 @@
-*body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -18,27 +18,67 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
-.header-container{
+/* .header-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 5% 0 11%;
-}
-.header-left ul{
-    display: flex;
-}
-.header-left{
- flex: 1;
-}
+} */
 .header-mid{
+    text-align: left;
+    float: left;
+    padding: 0 10px;
+}
+.header-mid h2{
+    margin: 26px 118px;
+}
+.nav {
+    
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 15px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+/* .header-left ul{
+    display: flex;
+    justify-content: center;
+} */
+/* .header-left{
+ flex: 1;
+} */
+
+/* .header-mid{
     flex: 1;
     text-align: center;
     color:#181a1a;
-}
-.header-right{
+} */
+/* .header-right{
     flex: 1;
-}
-.header-left ul li{
+} */
+/* .header-left ul li{
     list-style: none;
 }
 .header-left ul li a {
@@ -62,7 +102,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     font-size: 12px;
     font-weight: 400;
     color: #181a1a;
-}
+} */
 .center-text {
     position: absolute;
     top: 50%;
@@ -96,6 +136,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     border-radius: 14px;
 }
 .btn-click a{
+    border: none;
     text-decoration: none;
     font-size: 14px;
     font-weight: 200;
@@ -118,6 +159,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     justify-content: space-around;
     width: 90%;
     margin: auto;
+    align-items: center;
 }
 .startup-left{
     flex: 1;
@@ -132,6 +174,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
+    padding-top: 2%;
 }
 .support{
     flex: 1;
@@ -147,20 +190,23 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
 .startup-right .startup-love-section h2{
     font-size: 26px;
     text-transform: capitalize;
-    color: #2b2b2b;
+    color: #4b4c52;
     font-weight: 600;
 }
 .startup-right .startup-love-section p{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 200;
+    padding-top: 2%;
 }
 .support-and-code-section .support h2{
     font-size: 17px;
     font-weight: 600;
+    color: #4b4c52;
 }
 .support-and-code-section .support p{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 100;
+    padding-top: 2%;
 }
 .support-and-code-section .support h2 i{
     color: #690ec1;
@@ -169,10 +215,12 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
 .support-and-code-section .coder-section h2{
     font-size: 17px;
     font-weight: 600;
+    color: #4b4c52;
 }
 .support-and-code-section .coder-section p{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 100;
+    padding-top: 2%;
 }
 .support-and-code-section .coder-section h2 i{
     color: #690ec1;
@@ -200,7 +248,6 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     font-size: 15px;
     font-weight: 500;
     color: #4b4c52;
-    margin-top: -3%;
 }
 .our-service-bottom{
     margin-top: 5%;
@@ -246,8 +293,8 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     margin-top: 5%;
 }
 .creative-header-section p{
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 200;
     color: #4b4c52;
 }
 .creative-header-section h2 {
@@ -263,7 +310,6 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     font-size: 15px;
     font-weight: 500;
     color: #4b4c52;
-    margin-top: -3%;
 
 }
 .creative-head-profile img{
@@ -285,6 +331,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     width: 70%;
     margin: auto;
     flex-wrap: wrap;
+    margin-top: 3%;
 
 }
 .creative-head-profile h3{
@@ -350,6 +397,16 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     height: 300px;
 
 }
+.third-header-row img{
+    width: 50%;
+    height: 150px;
+}
+.imgs-second{
+    display: flex;
+}
+.section-second-row{
+    display: flex;
+}
 .column-footer-imgs{
     margin-top: -2%;
 }
@@ -362,7 +419,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
 
 }
 .footer-column-div img{
-    width: 100%;
+    width: 50%;
     height: 150px;
 }
 .footer-column-div{
@@ -374,7 +431,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
 }
 .third-footer-column img{
     width: 100%;
-    height: 300px;
+    height: 294px;
 }
 /* -----creative-work-photo------ */
 .easy-pricing-header-section{
@@ -400,7 +457,6 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     font-size: 15px;
     font-weight: 500;
     color: #4b4c52;
-    margin-top: -3%;
 }
 .flex-container{
     display: flex;
@@ -408,6 +464,7 @@ html,h1, h2,h3,h4,h5,p, input, textarea{
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .flex-item {
     flex: 1;
@@ -486,8 +543,9 @@ button {
     color: #c30000fc;
 }
 .manager{
- display: flex;
- flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 .sara-manager{
     flex: 1;
@@ -502,17 +560,18 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .won-employee .won{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     padding: 12% 12% 0 12%;
     flex-basis: 25%;
     flex-direction: row;
-    padding: 12%;
+    padding: 15%;
     text-align: center;
 }
 .won-employee .won h2{
-    font-size: 24px;
+    font-size: 50px;
     color: white;
 }
 .won-employee .won p{
@@ -573,7 +632,6 @@ button {
     font-size: 15px;
     font-weight: 500;
     color: #4b4c52;
-    margin-top: -3%;
 }
 /* -----project manager section----- */
 
@@ -694,6 +752,8 @@ button {
     flex-wrap: wrap;
     width: 70%;
     margin: auto;
+    align-items: center;
+
 }
 .dream{
     flex: 1;
@@ -702,8 +762,9 @@ button {
 .your-dreams-imgs{
     background: #ecebe9;
     padding: 16%;
-}.your-dreamm{
-    padding-top: 16%;
+}
+.your-dreamm{
+   
 }
 .your-dreamm h4{
     color: #53c0de;
@@ -731,6 +792,7 @@ button {
     flex-wrap: wrap;
     width: 70%;
     margin: auto;
+    align-items: center;
 }
 .website-dream{
     flex: 1;
@@ -754,7 +816,7 @@ button {
     padding: 20px 0 20px 0px;
 }
 .site-content{
-    padding-top: 16%;
+ 
 }
 /* ----started maps area----- */
 .maps-address{
@@ -765,9 +827,10 @@ button {
 }
 .address-with-info{
     flex: 1;
+   
 }
 .address-with-info .total-details-area{
-    height: 92.4%;
+    height: 98.4%;
     text-align: center;
     background: linear-gradient(90deg, #233fcaa6 0%, #2a0dccba 43%, #011fb5d4 85%);
 }
@@ -776,7 +839,6 @@ button {
     font-size: 13px;
     color: white;
     font-weight: 100;
-    margin-top: 2.3%;
 }
 .total-details-area h2{
     color: white;
@@ -787,7 +849,6 @@ button {
 }
 .total-details-area h4{
     font-size: 13px;
-    margin-top: -3%;
     font-weight: 100;
     color: white;
 }
@@ -813,7 +874,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    padding-left: 38%;
+    justify-content: center;
     
 }
 .total-details-area ul {
@@ -847,20 +908,39 @@ button {
     margin-top: -15px;
     text-transform: capitalize;
 }
+/* .form-box-section{
+     text-align: center;
+    margin: auto;
+    width: 67%;
+    display: block;
+} */ 
 .form-box-section{
+    width: 80%;
+    margin: auto;
     text-align: center;
+
+}
+.form-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input-first-box{
+    /* flex-basis: 30%; */
 }
 input {
     padding: 10px;
     font-size: 14px;
     margin: 5px;
-    width: 31%;
+    width: 100%;
+    /* width: 31%; */
 }
 textarea {
     padding: 13px;
     font-size: 14px;
     margin: 12px;
-    width: 65%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
@@ -876,6 +956,7 @@ textarea {
 
 }
 .form-btn a{
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -892,18 +973,17 @@ textarea {
     background-color: #f8f9fa;
 }
 .footer-head {
-    padding: 3% 0;
     margin-top: 6%;
     text-align: center;
 }
 .footer-head ul{
    display: flex;
    list-style: none;
-   padding-left: 39%;
+   justify-content: center;
 }
-.footer-head ul li i{
+ .footer-head ul li {
     padding: 1rem;
-}
+} 
 .copy-write{
     font-size: 12px;
     font-weight: 200;
