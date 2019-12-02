@@ -3,10 +3,11 @@
         width: 90% !important ;
       
     }
+    
     .center-text p {
-        font-size: 38px;
+        font-size: 36px;
         font-weight: 200;
-        padding: 18%;
+        padding: 11%;
     }
     .startup-right {
         flex: 1;
